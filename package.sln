@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unity.Abstractions", "Abstractions\src\Unity.Abstractions.csproj", "{203F8B7C-ADDF-4D2C-92DC-A4BFB64F6284}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{3FE9D881-4A27-4102-AD6A-A1D9A46AA793}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "v5", "v5", "{4CE7FDD6-BEE2-4971-BFE5-7E02A275D95D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unity.Container", "Container.v5\src\Unity.Container.csproj", "{5861DD84-5BF0-44CF-B2D3-53E3AC82A962}"
@@ -18,6 +16,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unity.Tests.v5", "Container.v5\tests\Unity.Tests\Unity.Tests.v5.csproj", "{8864D50C-A1AF-4716-82B9-274156AA08FA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unity.Specification", "SpecificationTests\src\Unity.Specification.csproj", "{270186F7-92EE-402D-AFBB-0121592ABA83}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unity.Specification.Tests.v5", "Container.v5\tests\Unity.Specification\Unity.Specification.Tests.v5.csproj", "{F9CC1F3C-77B1-487E-8F29-856A2FD52514}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +45,10 @@ Global
 		{270186F7-92EE-402D-AFBB-0121592ABA83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{270186F7-92EE-402D-AFBB-0121592ABA83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{270186F7-92EE-402D-AFBB-0121592ABA83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9CC1F3C-77B1-487E-8F29-856A2FD52514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9CC1F3C-77B1-487E-8F29-856A2FD52514}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9CC1F3C-77B1-487E-8F29-856A2FD52514}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9CC1F3C-77B1-487E-8F29-856A2FD52514}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +57,7 @@ Global
 		{5861DD84-5BF0-44CF-B2D3-53E3AC82A962} = {4CE7FDD6-BEE2-4971-BFE5-7E02A275D95D}
 		{B3D3C678-AA45-4871-9BF6-18BC960944B8} = {39613079-B384-47F2-8B3A-EC909F592C66}
 		{8864D50C-A1AF-4716-82B9-274156AA08FA} = {4CE7FDD6-BEE2-4971-BFE5-7E02A275D95D}
+		{F9CC1F3C-77B1-487E-8F29-856A2FD52514} = {4CE7FDD6-BEE2-4971-BFE5-7E02A275D95D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F9EAE93A-CE20-498A-8BC7-183974E8323A}

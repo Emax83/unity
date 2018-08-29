@@ -53,3 +53,6 @@
 [submodule "Microsoft.Options"]
 	path = Microsoft.Options
 	url = https://github.com/unitycontainer/microsoft-options.git
+[submodule "ServiceLocation"]
+	path = ServiceLocation
+	url = https://github.com/unitycontainer/service-location.git

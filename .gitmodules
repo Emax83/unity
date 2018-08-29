@@ -10,10 +10,6 @@
 	path = SpecificationTests
 	url = ../specification-tests.git
 	branch = master
-[submodule "ServiceLocation"]
-	path = ServiceLocation
-	url = ../service-location.git
-	branch = master
 [submodule "Configuration"]
 	path = Configuration
 	url = ../configuration.git
@@ -29,10 +25,6 @@
 [submodule "RegistrationByConvention"]
 	path = RegistrationByConvention
 	url = ../registration-by-convention.git
-	branch = master
-[submodule "CommonServiceLocator"]
-	path = CommonServiceLocator
-	url = https://github.com/unitycontainer/commonservicelocator.git
 	branch = master
 [submodule "MVC"]
 	path = MVC
